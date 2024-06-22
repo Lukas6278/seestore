@@ -1,0 +1,82 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    height: 100vh;
+    background: #3c3c3d;
+    background: linear-gradient(90deg, rgba(115,114,114,1) 100%, rgb(17, 18, 19) 100%);
+    
+    
+
+}
+.formulario-container {
+    background-color: #d9d3d3;
+    padding: 80px;
+    border-radius:12px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    font-size: 0,80cm;
+   
+}
+
+h1 {
+    text-align: center;
+    color: rgb(115,114,114);
+    
+}
+    
+input[type="text"],
+input[type="password"],
+button {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+form{
+    margin: 20px;
+}
+label {
+    display: block;
+    margin: 5px;
+    left: 25px;
+}
+
+button {
+    background-color: #0f1419;
+    color: #dbd8d8;
+    cursor: pointer;
+    text-align: center;
+}
+button:hover {
+    background-color: #3c3c3d;
+}
+button:active {
+    background-color: #3c3c3d;
+}
+button {
+    background-color: rgb(61, 63, 69);
+    color: rgb(255, 255, 255);
+    padding: 10px 20px;
+    font-size: 16px;
+    border-width: 1px;
+    border-color: rgb(237, 234, 234);
+    border-radius: 10px;
+    background-color: rgb(0, 0, 0);
+}
+
+    select:focus {
+        outline: none;
+        border-color: blueviolet;
+        box-shadow: 0 0 5px rgb(0, 97, 20, 0.7);
+    }
+
+    .semsub {
+        text-decoration: none;
+    }
+

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Carrinho de Compras</title>
+  <link rel="stylesheet" href="carrinho.css"> <!-- Arquivo de estilos separado -->
+</head>
+<body>
+
+<div class="cart-container">
+  <h2>Seu Carrinho de Compras</h2>
+  <table>
+    <thead>
+      <tr>
+        <th>Produto</th>
+        <th>Quantidade</th>
+        <th>Preço Unitário</th>
+        <th>Total</th>
+        <th></th>
+      </tr>
+    </thead>
+    <tbody id="cart-items">
+      <!-- Itens do carrinho serão adicionados dinamicamente aqui -->
+    </tbody>
+  </table>
+  
+  <div class="subtotal">
+    Subtotal: R$ <span id="subtotal">0.00</span>
+  </div>
+  <div class="total">
+    Total: R$ <span id="total">0.00</span>
+  </div>
+  
+  <div class="item-actions">
+    <button class="btn" onclick="limparCarrinho()">Limpar Carrinho</button>
+    <button class="btn">Finalizar Compra</button>
+  </div>
+</div>
+
+<script src="acoes.js"></script> <!-- Arquivo de scripts separado -->
+
+</body>
+</html>
